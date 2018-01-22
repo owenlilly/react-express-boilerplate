@@ -9,7 +9,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && rm -rf ../dist/public && mkdir ../dist/public && mv build/* ../dist/public && rm -r build",
+    "build": "react-scripts build && rm -rf ../dist/public && mkdir -p ../dist/public && mv build/* ../dist/public && rm -r build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },

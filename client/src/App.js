@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import RxHttp from './http/RxHttp';
 
-const client = new RxHttp();
 class App extends Component {
   render() {
     return (

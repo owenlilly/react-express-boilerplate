@@ -9,7 +9,6 @@ export function expressJwtErrorHandler(err, req, res, next) {
 }
 
 export function expressJwtConfig(secret) {
-  console.log(secret);
   return {
     secret: secret,
     credentialsRequired: false,
